@@ -1,0 +1,50 @@
+## Index
+- Unit 1 - Algorithm Measuring Techniques
+    - [Chapter 1 - Algorithm Definition](./unit_1/chapter_1/algorithm_definition)
+    - [Chapter 2 - Algorithm Analysis](./unit_1/chapter_2/algorithm_analysis)
+    - [Chapter 3 - Asymptotic Notations](./unit_1/chapter_3/asymptotic_notations)
+    - [Chapter 4 - Complexity Classes](./unit_1/chapter_4/complexity_classes)
+- Unit 2 - Recursion Solving Methodology
+    - [Chapter 1 - Recursion Solving Methods](./unit_2/chapter_1/recursion_solving_methods)
+    - [Chapter 2 - Substitution Method](./unit_2/chapter_2/substitution_method)
+    - [Chapter 3 - Recursive Tree Method](./unit_2/chapter_3/recursive_tree)
+    - [Chapter 4 - Master Theorem](./unit_2/chapter_4/master_theorem)
+    - Chapter 5 - How to find Time Complexity of a recursive problem
+        - [Chapter 5a - Factorial](./unit_2/chapter_5/factorial)
+        - [Chapter 5b - Fibonacci Series](./unit_2/chapter_5/fibonacci_series)
+        - [Chapter 5c - GCD](./unit_2/chapter_5/gcd)
+        - [Chapter 5d - Tricky Examples](./unit_2/chapter_5/tricky_examples)
+- Unit 3 - Divide and Conquer
+    - [Chapter 1 - Divide and Conquer Definition](./unit_3/chapter_1/divide_conquer_and_combine_definition)
+    - [Chapter 2  - Max-Min Problem](./unit_3/chapter_2/max_min)
+    - [Chapter 3  - Power of an element](./unit_3/chapter_3/power_of_an_element)
+    - [Chapter 4  - Linear Search](./unit_3/chapter_4/linear_search)
+    - [Chapter 5  - Binary Search](./unit_3/chapter_5/binary_search)
+    - [Chapter 6  - Merge Sort](./unit_3/chapter_6/merge_sort)
+    - [Chapter 7  - Quick Sort]()
+    - [Chapter 8  - Counting Number of Inversions]()
+    - [Chapter 9  - Stressen's Matrix Multiplication]()
+    - [Chapter 10 - Continuous Maximum Sub Array Sum]()
+- Unit 4 - Sorting Algorithms
+    - [Chapter 1 - Heap Sort]()
+    - [Chapter 2 - Bubble Sort]()
+    - [Chapter 3 - Selection Sort]()
+    - [Chapter 4 - Insertion Sort]()
+    - [Chapter 5 - Radix Sort]()
+    - [Chapter 6 - Bucket Sort]()
+    - [Chapter 7 - Counting Sort]()
+- Unit 5 - Greedy Algorithm
+    - [Chapter 1 - Greedy Technique](./unit_5/chapter_1/introduction)
+    - [Chapter 2 - Knapsack Problem](./unit_5/chapter_2/fractional_knapsack)
+    - [Chapter 3 - Job Sequencing with Deadline]()
+    - [Chapter 4 - Huffman Coding]()
+    - [Chapter 5 - Optimal Merge Pattern]()
+    - Chapter 6 - Single Source Shortest Path
+        - [Dijkstra's Algorithm]()
+        - [Bellman Ford Algorithm]()
+        - [Breadth First Search / Traversal]()
+    - Chapter 7 - Minimum-cost Spanning Tree
+        - [Prim's Algorithm]()
+        - [Krushkal's Algorithm]()
+- Unit 6 - Dynamic Programming
+- Unit 7 - Graph Algorithm

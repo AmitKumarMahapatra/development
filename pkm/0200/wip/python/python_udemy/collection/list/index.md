@@ -1,0 +1,39 @@
+## Index
+- List Class Object Properties
+- Ways to Create a List Class Object
+- Accessing Elements of a List Class Object
+- Types of Operator Applicable on a List Class Object
+- List Class Object Behavior on Built-In Python Functions
+    - `len()`
+    - `sorted()`
+    - `reversed()`
+- List Class Object Specific Methods
+    - Index and length related methods
+        - `count()`
+        - `index()`
+    - Inserting Elements to the list
+        - `append()`
+        - `insert()`
+        - `extend()`
+    - Removing Elements from the list
+        - `remove()`
+        - `pop()` and `pop(index)`
+        - `clear()`
+    - Ordering Elements of the list
+        - `reverse()`
+        - `sort()`
+- List Aliasing and Cloning
+    - Aliasing Definition
+    - Aliasing Issue
+- List Cloning
+    - Cloning by writing code
+    - Cloning by `copy()`
+- List Comprehension
+    - Example 1
+    - Example 2
+    - Example 3
+    - Example 4
+    - Example 5
+    - Example 6
+    - Example 7
+    - Example 8
