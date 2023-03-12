@@ -11,3 +11,5 @@ Gemfile.lock
 assets/**/*.html
 assets/**/*.md
 .jekyll-cache
+
+.obsidian

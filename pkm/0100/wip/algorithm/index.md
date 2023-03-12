@@ -36,15 +36,17 @@
 - Unit 5 - Greedy Algorithm
     - [Chapter 1 - Greedy Technique](./unit_5/chapter_1/introduction)
     - [Chapter 2 - Knapsack Problem](./unit_5/chapter_2/fractional_knapsack)
-    - [Chapter 3 - Job Sequencing with Deadline]()
-    - [Chapter 4 - Huffman Coding]()
+    - [Chapter 3 - Job Sequencing with Deadline](./unit_5/chapter_3/job_scheduling)
+    - [Chapter 4 - Huffman Coding](./unit_5/chapter_4/huffmann_coding)
     - [Chapter 5 - Optimal Merge Pattern]()
-    - Chapter 6 - Single Source Shortest Path
-        - [Dijkstra's Algorithm]()
-        - [Bellman Ford Algorithm]()
-        - [Breadth First Search / Traversal]()
-    - Chapter 7 - Minimum-cost Spanning Tree
-        - [Prim's Algorithm]()
-        - [Krushkal's Algorithm]()
+    - Chapter 6 - Graph Algorithms Using Greedy Approach
+        - [Graph Basics](./unit_5/chapter_6/graphs/basics)
+        - [Graph Representation](./unit_5/chapter_6/graphs/representation)
+        - Single Source Shortest Path
+            - [Dijkstra's Algorithm]()
+            - [Bellman Ford Algorithm]()
+            - [Breadth First Search / Traversal]()
+        - Minimum-cost Spanning Tree
+            - [Prim's Algorithm]()
+            - [Krushkal's Algorithm]()
 - Unit 6 - Dynamic Programming
-- Unit 7 - Graph Algorithm
