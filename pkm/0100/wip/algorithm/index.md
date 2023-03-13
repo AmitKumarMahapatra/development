@@ -42,9 +42,9 @@
 - Unit 6 - Dynamic Programming
 - Unit 7 - Graph Algorithms
     - Chapter 1 - Introduction
-        - [Corman Book Graph Notations](./unit_7/chapter_1/corman_notations)
-        - [Graph Basics](./unit_7/chapter_1/basics)
-        - [Graph Representation](./unit_7/chapter_1/representation)
+        - [Corman Book Graph Notations](./unit_7/chapter_1/corman_notations/corman_notations)
+        - [Graph Basics](./unit_7/chapter_1/basics/basics)
+        - [Graph Representation](./unit_7/chapter_1/representation/representation)
     - Chapter 2 - Graph Traversal
         - [Breadth First Traversal]()
         - [Depth First Traversal]()
