@@ -1,11 +1,13 @@
-## Algorithm Analysis
-If a problem is having more than 1 algorithm, the best algorithm is decided by analysis based on 2 factors.
-1.  Time Complexity (CPU Time that the algorithm requires)
-2.  Space Complexity (Main Memory space required by the algorithm)
+# Algorithm Analysis
 
-### Time Complexity Analysis
+## Introduction
+- If a problem is having more than 1 algorithm, the best algorithm is decided by analysis based on 2 factors.
+    1. **Time Complexity Analysis** (CPU Time that the algorithm requires)
+    2. **Space Complexity Analysis** (Main Memory space required by the algorithm)
+- There are 2 types of **Time Complexity Analysis**
 
-### Types of Time Complexity Analysis
+
+### APostiary Analysis Vs APriori Analysis
 
 | APostiary Analysis                                           | APriori Analysis                                                    |
 |--------------------------------------------------------------|---------------------------------------------------------------------|
@@ -15,30 +17,94 @@ If a problem is having more than 1 algorithm, the best algorithm is decided by a
 | Gives Exact Answer                                           | Gives Approximate Answer                                            |
 | Answer is different from system to system                    | Same answer in every system                                         |
 
-#### Motivational Quote
-Everyone can not buy a supercomputer, but everyone can write a super algorithm.
-
-#### Motivational Quote
-In the CSE Field, if you know the algorithm, somehow you will survive. That is for sure.
 
 ### APriori Analysis Examples
+
+In all the below example, `while` loop is used. And the solution is written in a way that, we are assuming the loop will execute $k$ number of times. and we find the value of $k$ in terms of $n$. That is our time complexity $T(n)$
 
 #### Example 1
 
 ##### Case A
-![Example 1 - Case A](./images/Example%201/Case%20A.jpg)
+```pseudo
+i=0;
+While(i < n) {
+    i = i + 1;
+}
+```
+$ i = 0,1,2,3,4,5...k$ <br />
+$k \lt n$ <br />
+$T(n) = O(n)$ <br />
+```pseudo
+i=0;
+While(i < n){
+    i = i + 5;
+}
+```
+$ i = 0, (1*5), (2*5), (3*5), (4*5),..., (k*5)$ <br />
+$(k*5) \lt n$ <br />
+$k \lt \frac{n}{5}$ <br />
+$T(n) = O(\frac{n}{5}) = O(n)$ <br />
 
 ##### Case B
-![Example 1 - Case B](./images/Example%201/Case%20B.jpg)
+```pseudo
+i = 0;
+While(i < n){
+    i = i + 5;
+    i = i + 7;
+}
+```
+$ i = 0, (1 * 12), (2 * 12), (3*12), ... , (k * 12)$ <br />
+$( k * 12) \lt n$ <br />
+$k \lt \frac{n}{12}$ <br />
+$T(n) = O(\frac{n}{12}) = O(n)$ <br />
 
 ##### Case C
-![Example 1 - Case C](./images/Example%201/Case%20C.jpg)
+```
+i = 10;
+While(i < n){
+    i = i + 5;
+    i = i + 7;
+}
+```
+$ i = 10, 10 + (1 * 12), 10 + (2 * 12), 10 + (3*12), ... , 10 + (k * 12)$ <br />
+$n \lt 10 + ( k * 12)$ <br />
+$\frac{n-10}{12} \lt k$ <br />
+$T(n) = O(\frac{n-10}{12}) = O(n)$ <br />
 
 ##### Case D
-![Example 1 - Case A](./images/Example%201/Case%20D.jpg)
+```pseudo
+While(i < (n^2)){
+    i = i + 1;
+}
+```
+$ i = 0,1,2,3,4,5...k$ <br />
+$k = n^2$ <br />
+$T(n) = O(n^2)$ <br />
 
 ##### Case E
-![Example 1 - Case A](./images/Example%201/Case%20E.jpg)
+```pseudo
+i = 1;
+While(i < n){
+    i = i + n;
+}
+```
+$i = 1, n+1$ <br />
+$T(n) = O(1)$
+
+##### Case F
+```pseudo
+i=0;
+While(i<n){
+    i = i + 1;
+}
+```
+```pseudo
+i=0;
+While(i<=n){
+    i = i + 1;
+}
+```
+In case of **APriori Analysis**, minor things does not matter, because we are comparing algorithms **Asymptotically, not Mathematically**. So in all the above cases, if the `while` loop condition would have been `i` $\leq$ `n` instead of `i` $\lt$ `n`, still the answer would have been exactly same.
 
 #### Example 2
 
@@ -124,21 +190,10 @@ If you are having trouble finding the TC from `for` Loop, convert into `while` L
 ![Example 8 - Case A](./images/Example%208/Case%20A.jpg)
 
 #### Example 9 (Tricky One)
-![Example 9 - Case A](./images/Example%209/Case%20A.jpg)
-
-#### Motivational Quote
-
-$(0.99){}^{365}\  = \ 0.02\ $
-
-$(1){}^{365}\  = \ 1\ $
-
-$(0.99){}^{365}\  = \ 37.78$ 
+![Example 9 - Case A](./images/Example%209/Case%20A.jpg) 
 
 #### Example 10 (Tricky One)
 ![Example 10 - Case A](./images/Example%2010/Case%20A.jpg)
-
-#### Motivational Quote
-Don\'t be like a problem person, Be a solution Person.
 
 #### Example 11
 
@@ -186,11 +241,11 @@ Don't cry if anything new comes in. Just Smile and learn it.
 ![Example 14 - Case A](./images/Example%2014/Case%20A.jpg)
 
 #### Exam Tricks
--   Going forward, if any **DECREASING GP SERIES** comes in, just take
-    it as constant and proceed. No need to calculate,
--   Time complexity means loops only. In the exam they will give a big
-    program with no recursion and loops, and will ask for time
-    complexity. This kind of trick they might use.
+-   Going forward, if any **DECREASING GP SERIES** comes in, just take it as constant and proceed. No need to calculate,
+-   Time complexity means loops only. In the exam they will give a big program with no recursion and loops, and will ask for time complexity. This kind of trick they might use.
 
 ##### Case B
 ![Example 14 - Case B](./images/Example%2014/Case%20B.jpg)
+
+
+## Keynotes
